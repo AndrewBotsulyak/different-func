@@ -16,6 +16,10 @@ function findUniq(arr){
 	});
 	arr3.reduce((prev, curr, index)=>{
 		if(prev !== curr){
+<<<<<<< HEAD
+			arr2.push(index - 1 + 1 - 1, index); 	// here hotfix
+			return curr;
+=======
 			arr2.push(index - 1, index);
 >>>>>>> test2
 		}
