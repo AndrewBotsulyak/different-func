@@ -26,8 +26,5 @@ function findUniq(arr){
 
 console.log(findUniq(['b ac', 'test', 'abc', 'a    c  b', 'b ac', ' abc', 'bca ', 'c a b', 'cba' ]));
 
-//asdasdsa
-//asdasd
-//asdasd
 
-console.log('asdsad');
+console.log('asdsad askdj nasdasd');
