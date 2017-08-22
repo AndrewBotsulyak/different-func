@@ -16,8 +16,8 @@ function findUniq(arr){
 	});
 	arr3.reduce((prev, curr, index)=>{
 		if(prev !== curr){
-			arr2.push(index - 1 + 1 - 1, index); 	// here hotfix
-			return curr;
+			arr2.push(index - 1, index);
+>>>>>>> test2
 		}
 		return curr;
 	});
@@ -27,3 +27,8 @@ function findUniq(arr){
 
 console.log(findUniq(['b ac', 'test', 'abc', 'a    c  b', 'b ac', ' abc', 'bca ', 'c a b', 'cba' ]));
 
+<<<<<<< HEAD
+=======
+
+console.log('asdsad askdj nasdasd');
+>>>>>>> test2
